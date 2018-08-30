@@ -1,0 +1,33 @@
+
+{% extends 'core/base.html' %}
+
+{% block title %}   Acerca de {% endblock %}
+{% block background %}{% load static %}{% static 'core/img/about-bg.jpg'%}{% endblock %}
+{% block headers %}
+    <h1>Acerca de</h1>
+    <span class="subheading">Biografia</span>
+{% endblock %}
+{% block content %}
+    <div class="row">
+        <div class="col-lg-3 col-md-4 offset-lg-1">
+            <img class="img-fluid avatar" src="{% static 'core/img/avatar.jpg' %}" alt="">
+        </div>
+
+        <div class="col-lg-7 col-md-8">
+            <h2 class="section-heading">Daniel Mandarano</h2>
+            <p>Nacido en Buenos Aires.</p>
+            <p>Diseño en 3D mediante la herramienta Solidworks y estudio de simulaciones mecánicas.</p>
+            <p>Este sitio web fue diseñado por mi en django framework.</p>
+            <p>En el link de GitHub estare subiendo mis proyectos de aplicaciones.</p>
+            <p>Estoy incursionado en el desarrollo de aplicaciones basadas en python, tanto como en Android para aplicaciones móviles.</p>
+
+        </div>
+    </div>
+{% endblock %}
+
+
+
+
+
+
+
